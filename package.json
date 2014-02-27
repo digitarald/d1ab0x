@@ -1,0 +1,23 @@
+{
+  "name": "diab",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "react": "0.9.x",
+    "director": "1.2.x",
+    "gulp": "3.5.x",
+    "gulp-util": "2.2.x",
+    "gulp-less": "1.2.x",
+    "webpack": "1.0.x",
+    "jsx-loader": "0.x",
+    "url-loader": "0.5.x",
+    "css-loader": "0.6.x",
+    "style-loader": "0.6.x",
+    "less-loader": "0.7.x",
+    "webpack-dev-middleware": "1.0.x",
+    "express": "3.4.x"
+  },
+  "scripts": {
+    "start": "gulp webpack:dev-server"
+  }
+}
